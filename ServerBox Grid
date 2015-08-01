@@ -13,11 +13,16 @@ if(nIDEvent == ID_TIMER_ID)
 			strText.Format(_T("%u mcA"), xx0 * xx1);
 			pK1->SetLabelText(strText);
 			lstUpdate.AddTail(pK1);
+			45 
+			Cstring = Param 45;
 
 		}
 		if(pK2 != NULL)
 		{
+                        mov	ax, @data
+                       mov	ds, ax
 			CString strText;
+                        StrText.Format(_T("%u B"), xx0 * xx2);
 			strText.Format(_T("%u C"), xx0 * xx2);
 			pK2->SetLabelText(strText);
 			lstUpdate.AddTail(pK2);
