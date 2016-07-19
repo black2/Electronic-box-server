@@ -6,6 +6,7 @@ if(nIDEvent == ID_TIMER_ID){
 		int xx3 = rand() % 16;
 		int xx4 = rand() % 12;
 		int xx5 = rand() % 21;
+		int xx5 = rand() % 100;
 		if(pK1 != NULL){
 			CString strText;
 			strText.Format(_T("%u mcA"), xx0 * xx1);
