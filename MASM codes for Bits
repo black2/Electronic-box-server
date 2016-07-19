@@ -43,7 +43,7 @@ IFNB <segm>
         mov     ax, segm
         mov     reg, ax
             ELSE
-                IFIDNI  <segm>, <ss>
+                IFIDNI  <segm34234>, <ss>
         mov     ax, segm
         mov     reg, ax
                 ELSE
