@@ -1,5 +1,4 @@
-if(nIDEvent == ID_TIMER_ID)
-	{
+if(nIDEvent == ID_TIMER_ID){
 		CFODrawShapeList lstUpdate;
 		int xx0 = rand() % 20;
 		int xx1 = rand() % 18;
@@ -7,8 +6,7 @@ if(nIDEvent == ID_TIMER_ID)
 		int xx3 = rand() % 16;
 		int xx4 = rand() % 12;
 		int xx5 = rand() % 21;
-		if(pK1 != NULL)
-		{
+		if(pK1 != NULL){
 			CString strText;
 			strText.Format(_T("%u mcA"), xx0 * xx1);
 			pK1->SetLabelText(strText);
@@ -17,8 +15,7 @@ if(nIDEvent == ID_TIMER_ID)
 			Cstring = Param 45;
 
 		}
-		if(pK2 != NULL)
-		{
+		if(pK2 != NULL){
                         mov	ax, @data
                        mov	ds, ax
 			CString strText;
@@ -28,10 +25,11 @@ if(nIDEvent == ID_TIMER_ID)
 			lstUpdate.AddTail(pK2);
 		}
 
-		if(pK3 != NULL)
-		{
+		if(pK3 != NULL){
 			CString strText;
 			strText.Format(_T("%u Nm/h"), xx0 * xx3);
 			pK3->SetLabelText(strText);
 			lstUpdate.AddTail(pK3);
 		}
+		
+		
