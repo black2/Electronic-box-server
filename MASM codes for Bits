@@ -338,3 +338,5 @@ sSaveIntVec MACRO intr, OldIntVec
     ENDM
 
         .LIST
+        
+        exit;
